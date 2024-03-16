@@ -45,7 +45,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6957481815968377364}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 100
   m_Drag: 1
   m_AngularDrag: 10
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -100,12 +100,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.5552058, y: 1.4186687, z: 6.231307}
-  m_Center: {x: 0.0061910152, y: 0.7553357, z: 0.16045284}
+  m_Size: {x: 2.5552058, y: 2.0483427, z: 6.240012}
+  m_Center: {x: 0.0061910152, y: 1.0701728, z: -0.24409962}
 --- !u!195 &-9146896667099636233
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -116,7 +116,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

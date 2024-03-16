@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CollectTask : MonoBehaviour
 {
@@ -14,7 +15,10 @@ public class CollectTask : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            // Görev tetiklenince yeni bir sahnede basit bir oyun açılacak. Ve onun sonucuna göre başarılı ya da başarısız olacak.
             //taskController.CompleteTask();
+            taskController.CompleteTask();
+            SceneManager.LoadScene("Task1Platform");
         }
     }
 }

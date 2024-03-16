@@ -8,7 +8,6 @@ using UnityEngine.UI;
 public class TaskController : MonoBehaviour
 {
     private List<GameObject> taskPanels = new List<GameObject>();
-    private bool isCompleted = false;
     private TextMeshProUGUI taskText;
     [SerializeField] private GameObject taskPanel;
     [SerializeField] private Sprite completeImage;
@@ -27,7 +26,7 @@ public class TaskController : MonoBehaviour
         var length = tasks.Length;
         for (int i = 0; i < length; i++)
         {
-            CreateTaskPanel(tasks[i].taskName, tasks[i].isCompleted);
+            CreateTaskPanel(tasks[i].taskName);
         }
     }
     private void Update()
@@ -35,12 +34,33 @@ public class TaskController : MonoBehaviour
 
     }
 
-    private void CreateTaskPanel(String taskName, bool isCompleted)
+    private void CreateTaskPanel(String taskName)
     {
         var taskPanel1 = Instantiate(taskPanel, transform);
         taskText = taskPanel1.transform.GetComponentInChildren<TextMeshProUGUI>();
         taskText.text = taskName;
         taskPanels.Add(taskPanel1);
+    }
+
+    public void CompleteTask()
+    {
+        var firstTask = taskPanels[0].gameObject.GetComponentsInChildren<Image>()[1];
+        var secondTask = taskPanels[1].gameObject.GetComponentsInChildren<Image>()[1];
+        var thirdTask = taskPanels[2].gameObject.GetComponentsInChildren<Image>()[1];
+        firstTask.sprite = completeImage;
+        if(firstTask.sprite == completeImage)
+        {
+            secondTask.sprite = completeImage;
+        }
+        else if(secondTask.sprite == completeImage)
+        {
+            thirdTask.sprite = completeImage;
+        }
+        else if(thirdTask.sprite == completeImage)
+        {
+            Debug.Log("Tebrikler! Oyunu bitirdiniz.");
+        }
+       
     }
 
 
