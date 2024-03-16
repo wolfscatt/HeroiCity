@@ -24,19 +24,6 @@ public class TaskController : MonoBehaviour
         UpdateTaskVisuals();
     }
 
-    private void CheckTaskCompletion()
-    {
-        for (int i = 0; i < tasks.Length; i++)
-        {
-            if (tasks[i].isCompleted)
-            {
-                // Eğer task tamamlanmamışsa, kontrol et
-                // Örneğin, bu taskı oyun içi olaylar veya diğer koşullarla kontrol edebilirsiniz
-                // Burada herhangi bir örnek senaryo gösterilmemiştir.
-            }
-        }
-    }
-
     private void CreateTaskPanel()
     {
         foreach (var task in tasks)

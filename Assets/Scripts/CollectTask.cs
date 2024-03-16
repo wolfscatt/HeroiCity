@@ -27,13 +27,13 @@ public class CollectTask : MonoBehaviour
             {
                 PlayerPrefs.SetInt("taskCompleted2", 1);
                 taskController.CompleteTask(1);
-                SceneManager.LoadScene("Task2Platform");
+                SceneManager.LoadScene("Task2Game");
             }
             else if(gameObject.CompareTag("Task3"))
             {
                 PlayerPrefs.SetInt("taskCompleted3", 1);
                 taskController.CompleteTask(2);
-                SceneManager.LoadScene("Task3Platform");
+                SceneManager.LoadScene("Task3Game");
             }
             
         }
