@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        //playerCamera = Camera.main;
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;

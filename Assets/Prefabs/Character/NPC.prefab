@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 4495665322453362805}
   - component: {fileID: 788187404981230030}
   - component: {fileID: 8280503231317316537}
-  - component: {fileID: 3133891732757341413}
+  - component: {fileID: 172832596228729425}
+  - component: {fileID: -5469098344781899660}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Player
@@ -136,7 +137,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!114 &3133891732757341413
+--- !u!143 &172832596228729425
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6214441284007856453}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-5469098344781899660
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,7 +172,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 6214441284007856453}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03a1c1d0cb1d84c4db3cea406d2ba3f9, type: 3}
+  m_Script: {fileID: 11500000, guid: c978f5c04a8245a458b092cba2853f62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  walkSpeed: 5
+  runSpeed: 10
+  jumpPower: 7
+  gravity: 27
+  lookSpeed: 2
+  lookXLimit: 45
+  defaultHeight: 2
+  crouchHeight: 1
+  crouchSpeed: 3
