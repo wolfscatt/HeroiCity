@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1739332323637331397}
   - component: {fileID: 6751702891252469365}
   - component: {fileID: 6141007234749115326}
+  - component: {fileID: 2523406111426697787}
   m_Layer: 0
   m_Name: Car2(Bus)
   m_TagString: Untagged
@@ -127,6 +128,18 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2523406111426697787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123879630533452999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86c57a0c6f63484f8a1f2591f5889a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2476582332210371634
 PrefabInstance:
   m_ObjectHideFlags: 0

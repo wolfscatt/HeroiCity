@@ -23667,7 +23667,7 @@ Transform:
   m_GameObject: {fileID: 1431702591}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.3, y: 0, z: -110.49}
+  m_LocalPosition: {x: 3.3, y: 0, z: -109.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26404,6 +26404,55 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &1630735300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1630735302}
+  - component: {fileID: 1630735301}
+  m_Layer: 0
+  m_Name: CarSpawner (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1630735301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630735300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8697f37dcde1f0848ac1b6c576b83c7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefabs:
+  - {fileID: 2123879630533452999, guid: 49c937bb7324829439bfe818a827157d, type: 3}
+  - {fileID: 6523763657242164862, guid: b49cbd7c16886f94fa9a0f3b5f9202c4, type: 3}
+  - {fileID: 6957481815968377364, guid: f1f357c81aae6814782773f8e9ee6ef9, type: 3}
+  - {fileID: 8174218824230390808, guid: 11cf4338374bd2449b156c4dfa35c009, type: 3}
+--- !u!4 &1630735302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630735300}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 116, y: 0, z: 105.99}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631130344
 GameObject:
   m_ObjectHideFlags: 0
@@ -29745,6 +29794,55 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1874028933}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1874407567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1874407569}
+  - component: {fileID: 1874407568}
+  m_Layer: 0
+  m_Name: CarSpawner (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1874407568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874407567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8697f37dcde1f0848ac1b6c576b83c7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefabs:
+  - {fileID: 2123879630533452999, guid: 49c937bb7324829439bfe818a827157d, type: 3}
+  - {fileID: 6523763657242164862, guid: b49cbd7c16886f94fa9a0f3b5f9202c4, type: 3}
+  - {fileID: 6957481815968377364, guid: f1f357c81aae6814782773f8e9ee6ef9, type: 3}
+  - {fileID: 8174218824230390808, guid: 11cf4338374bd2449b156c4dfa35c009, type: 3}
+--- !u!4 &1874407569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874407567}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 243.7, y: 0, z: 118.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1876403770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37189,5 +37287,7 @@ SceneRoots:
   - {fileID: 1216233080}
   - {fileID: 966564952}
   - {fileID: 1909642210}
+  - {fileID: 1874407569}
+  - {fileID: 1630735302}
   - {fileID: 942737117}
   - {fileID: 755045425}

@@ -7,12 +7,13 @@ using UnityEngine.Events;
 
 public class CarAI : MonoBehaviour
 {
-    public GameObject wayPoint;
+    private GameObject wayPoint;
     private Transform[] wayPoints;
     private int currentWayPointIndex = 0;
     private NavMeshAgent agent;
 
     private void Start() {
+        wayPoint = GameObject.Find("WayPoints");
         wayPoints = wayPoint.GetComponentsInChildren<Transform>();
         agent = GetComponent<NavMeshAgent>();
         SetNextWaypoint();

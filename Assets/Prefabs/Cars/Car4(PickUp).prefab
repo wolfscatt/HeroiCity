@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8319688591449692501}
   - component: {fileID: 1065668085020056276}
   - component: {fileID: 6485106826068166772}
+  - component: {fileID: 4861810743046931946}
   m_Layer: 0
   m_Name: Car4(PickUp)
   m_TagString: Untagged
@@ -127,6 +128,18 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &4861810743046931946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8174218824230390808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86c57a0c6f63484f8a1f2591f5889a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2898218557252697104
 PrefabInstance:
   m_ObjectHideFlags: 0
