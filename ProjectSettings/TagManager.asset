@@ -13,6 +13,8 @@ TagManager:
   - Engel
   - RedDoor
   - Player2D
+  - Task2
+  - Task3
   layers:
   - Default
   - TransparentFX

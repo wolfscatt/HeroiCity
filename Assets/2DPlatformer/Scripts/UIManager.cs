@@ -13,6 +13,7 @@ public class UIManager : MonoBehaviour
 
     public void Continue()
     {   
+        PlayerPrefs.SetString("scene", "Task1Platform");
         SceneManager.LoadScene("CityScene");
     }
 
