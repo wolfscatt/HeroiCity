@@ -3090,7 +3090,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue
+  m_text: Devam Et
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: be338feb890fa3e4597d9d0b9b01fd5c, type: 2}
   m_sharedMaterial: {fileID: 8893511793910716182, guid: be338feb890fa3e4597d9d0b9b01fd5c,

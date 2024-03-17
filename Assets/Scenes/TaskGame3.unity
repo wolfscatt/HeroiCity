@@ -916,7 +916,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue
+  m_text: Devam Et
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: be338feb890fa3e4597d9d0b9b01fd5c, type: 2}
   m_sharedMaterial: {fileID: 8893511793910716182, guid: be338feb890fa3e4597d9d0b9b01fd5c,
@@ -944,7 +944,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62.1
+  m_fontSize: 61.25
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1190,7 +1190,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Quit
+  m_text: "\xC7\u0131k\u0131\u015F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: be338feb890fa3e4597d9d0b9b01fd5c, type: 2}
   m_sharedMaterial: {fileID: 8893511793910716182, guid: be338feb890fa3e4597d9d0b9b01fd5c,
@@ -1871,7 +1871,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Try Again
+  m_text: Tekrar Dene
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: be338feb890fa3e4597d9d0b9b01fd5c, type: 2}
   m_sharedMaterial: {fileID: 8893511793910716182, guid: be338feb890fa3e4597d9d0b9b01fd5c,
@@ -1899,7 +1899,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.65
+  m_fontSize: 47.15
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1

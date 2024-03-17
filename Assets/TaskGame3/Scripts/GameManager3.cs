@@ -46,14 +46,14 @@ public class GameManager3 : MonoBehaviour
     {
         
         score = 0;
-        scoreText.text = $"Score: {score}";
+        scoreText.text = $"Skor: {score}";
         gameOverPanel.SetActive(false);
         winPanel.SetActive(false);
     }
     public void IncreaseScore(int amount)
     {
         score += amount;
-        scoreText.text = $"Score: {score}";
+        scoreText.text = $"Skor: {score}";
     }
     public void Explode()
     {
