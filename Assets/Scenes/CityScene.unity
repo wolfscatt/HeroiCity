@@ -7143,15 +7143,15 @@ MonoBehaviour:
   defaultImage: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   tasks:
   - taskId: 1
-    taskName: Go to the pharmacy
+    taskName: "Kay\u0131p anahtarlar\u0131 bul"
     isCompleted: 0
     icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   - taskId: 2
-    taskName: Chicken Restoranta Git
+    taskName: "Yeti\u015Fmesi gereken sipari\u015F'i yeti\u015Ftir."
     isCompleted: 0
     icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   - taskId: 3
-    taskName: "deneme g\xF6rev"
+    taskName: "Arkada\u015F\u0131na \xF6devinde yard\u0131mc\u0131 ol"
     isCompleted: 0
     icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!114 &445905773
@@ -11889,6 +11889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 985f9837bb4586b4086ab7960dc98e91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transitionDuration: 2
 --- !u!1001 &719666210
 PrefabInstance:
   m_ObjectHideFlags: 0

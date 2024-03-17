@@ -6,11 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: b6120467315de3f4a840c0329370c80e
+  - enabled: 1
     path: Assets/Scenes/CityScene.unity
     guid: 7e6d3f4e5d896154ab4438845532ac3e
   - enabled: 1
     path: Assets/Scenes/Task1Platform.unity
-    guid: a7fb92a966f213e49b020a71b5113f81
+    guid: e4880e5bf7c11b042a93c8b632c8a673
+  - enabled: 1
+    path: Assets/Scenes/Task2Game.unity
+    guid: 6f7c4f2075024de4fbd764e34e7e3f5c
+  - enabled: 1
+    path: Assets/Scenes/Task3Game.unity
+    guid: de82a0d4f66be9d4aa5fa5fadf51d0db
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 432c5bb198c53274b87028b2f5535ac5,
       type: 2}
