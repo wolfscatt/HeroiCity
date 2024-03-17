@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MenuScene.unity
+    path: Assets/Scenes/MenuScene/MenuScene.unity
     guid: b6120467315de3f4a840c0329370c80e
   - enabled: 1
     path: Assets/Scenes/CityScene.unity
@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TaskGame3.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MenuScene/Credits.unity
+    guid: 8b393f0f45b6d344c88276632a1d2189
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 432c5bb198c53274b87028b2f5535ac5,
       type: 2}
