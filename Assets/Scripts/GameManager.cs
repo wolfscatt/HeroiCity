@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject pausePanel;
 
-    // Update is called once per frame
+    private void Start() 
+    {
+        pausePanel.SetActive(false);
+    }
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (Time.timeScale == 0f)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
+        }
+    }
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0f; // Oyun zamanını durdur
+        pausePanel.SetActive(true); // Duraklatma panelini aktif hale getir
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f; // Oyun zamanını devam ettir
+        pausePanel.SetActive(false); // Duraklatma panelini devre dışı bırak
     }
 }
