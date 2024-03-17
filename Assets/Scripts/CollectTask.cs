@@ -33,7 +33,7 @@ public class CollectTask : MonoBehaviour
             {
                 PlayerPrefs.SetInt("taskCompleted3", 1);
                 taskController.CompleteTask(2);
-                SceneManager.LoadScene("Task3Game");
+                SceneManager.LoadScene("TaskGame3");
             }
             
         }

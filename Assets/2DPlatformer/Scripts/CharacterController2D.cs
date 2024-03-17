@@ -22,7 +22,7 @@ public class CharacterController2D : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
 

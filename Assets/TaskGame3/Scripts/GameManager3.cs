@@ -21,6 +21,8 @@ public class GameManager3 : MonoBehaviour
     }
     private void Awake()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         if (instance == null) instance = this;
     }
 
@@ -30,11 +32,14 @@ public class GameManager3 : MonoBehaviour
     }
     public void WinGame()
     {
-        Time.timeScale = 0;
         if(score >= 500)
         {
+            Time.timeScale = 0;
             winPanel.SetActive(true);
         }
+    }
+    private void Update() {
+        WinGame();
     }
 
     public void NewGame()
