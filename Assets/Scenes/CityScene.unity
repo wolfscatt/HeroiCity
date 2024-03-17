@@ -11277,7 +11277,7 @@ MonoBehaviour:
   m_Path: {fileID: 672831715}
   m_UpdateMethod: 0
   m_PositionUnits: 1
-  m_Speed: 30
+  m_Speed: 40
   m_Position: 0
 --- !u!4 &610778295
 Transform:
@@ -13136,7 +13136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 985f9837bb4586b4086ab7960dc98e91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionDuration: 2
+  transitionDuration: 10.2
 --- !u!1001 &719666210
 PrefabInstance:
   m_ObjectHideFlags: 0

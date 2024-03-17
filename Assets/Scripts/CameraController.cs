@@ -6,7 +6,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     private GameObject cam;
-    public float transitionDuration = 2f;
+    public float transitionDuration = 10.2f;
     void Start()
     {
         cam = GetComponentInChildren<Camera>().gameObject;
@@ -15,7 +15,7 @@ public class CameraController : MonoBehaviour
     }
  public IEnumerator ReturnToPlayer()
     {
-        yield return new WaitForSeconds(10.2f);
+        yield return new WaitForSeconds(transitionDuration);
         cam.transform.position = transform.position;
     }
 }
